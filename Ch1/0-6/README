@@ -1,0 +1,3 @@
+I don't know why the program works with all the braces.
+
+It appears that the braces simply designate a unit - so if there are multiple braces around a unit, it's still the unit. With multiple braces - the unit of the inermost brace pair is the unit of the next inermost brace pair, and so on.
