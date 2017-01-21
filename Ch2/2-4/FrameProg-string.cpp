@@ -37,7 +37,8 @@ int main()
         while (c != cols) {
            // is it time to write the greeting?
            if (r == pad + 1 && c == pad + 1) {
-               cout << greeting;
+               string vpad(pad, ' ');
+               cout << vpad + greeting + vpad;
                c += greeting.size();
            } else {
 
